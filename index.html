@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub项目主页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #555 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+        header a:hover {
+            color: #ffffff;
+            font-weight: bold;
+        }
+        .main {
+            padding: 20px;
+            background: #fff;
+        }
+        .main h2 {
+            color: #333;
+        }
+        .main p {
+            color: #666;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>我的GitHub项目</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">主页</a></li>
+                    <li><a href="about.html">关于</a></li>
+                    <li><a href="contact.html">联系</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="main">
+            <h2>欢迎来到我的GitHub项目主页</h2>
+            <p>这是一个简单的HTML页面，用于展示我的GitHub项目。你可以在这里找到我的项目介绍、代码示例以及联系方式。</p>
+            <h3>项目列表</h3>
+            <ul>
+                <li><a href="https://github.com/yourusername/project1" target="_blank">项目1</a> - 项目1的描述</li>
+                <li><a href="https://github.com/yourusername/project2" target="_blank">项目2</a> - 项目2的描述</li>
+                <li><a href="https://github.com/yourusername/project3" target="_blank">项目3</a> - 项目3的描述</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>版权所有 &copy; 2025 我的GitHub项目</p>
+    </footer>
+</body>
+</html>
