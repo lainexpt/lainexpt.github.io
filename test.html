@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Device</title>
+    <script>
+        // 显示ID和时间
+        function displayInfo() {
+            const id = "WD SN580(2TB)"; // 示例ID，你可以根据需要修改
+            const ChangeTime = "2025-05-09 22:00:00";
+            const remainingCapacity = "1.00TB"; // 示例剩余容量
+
+            document.getElementById("id").innerText = "ID: " + id;
+            document.getElementById("change_time").innerText = "Time: " + ChangeTime;
+            document.getElementById("remainingCapacity").innerText = "Remaining capacity: " + remainingCapacity;
+
+        }
+
+        // 页面加载完成后显示信息
+        window.onload = displayInfo;
+    </script>
+</head>
+
+<body>
+    <h1>SSD for back up and Media</h1>
+    <p id="id"></p>
+    <p id="change_time"></p>
+    <p id="remainingCapacity"></p>
+</body>
+
+</html>
