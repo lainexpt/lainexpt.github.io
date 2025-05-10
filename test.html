@@ -8,11 +8,11 @@
     <script>
         // 显示ID和时间
         function displayInfo() {
-            const id = "WD SN580(2TB)"; // 示例ID，你可以根据需要修改
+            const sn = "WD SN580(2TB)"; // 示例ID，你可以根据需要修改
             const ChangeTime = "2025-05-09 22:00:00";
             const remainingCapacity = "1.00TB"; // 示例剩余容量
 
-            document.getElementById("id").innerText = "ID: " + id;
+            document.getElementById("sn").innerText = "SN: " + sn;
             document.getElementById("change_time").innerText = "Time: " + ChangeTime;
             document.getElementById("remainingCapacity").innerText = "Remaining capacity: " + remainingCapacity;
 
@@ -25,7 +25,7 @@
 
 <body>
     <h1>SSD for back up and Media</h1>
-    <p id="id"></p>
+    <p id="sn"></p>
     <p id="change_time"></p>
     <p id="remainingCapacity"></p>
 </body>
